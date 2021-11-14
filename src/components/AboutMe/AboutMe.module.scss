@@ -1,0 +1,33 @@
+@import '../../index.scss';
+
+.aboutme__container {
+    @include container;
+    .title{
+        font-size: 40px;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        line-height: 30px;
+        margin-bottom: 20px;
+        span{
+            font-weight: bold;
+        }
+    }
+    a{
+        color: #f17272;
+        text-decoration: none;
+        &:hover{
+            opacity: .8;
+        }
+    }
+    .strengths{
+        li{
+            font-family: 'Montserrat', sans-serif;
+            line-height: 25px;
+            list-style: circle;
+            &:not(:last-child){
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
