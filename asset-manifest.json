@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ceebd8d9.chunk.css",
+    "main.js": "/portfolio/static/js/main.e81cafa5.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e81cafa5.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.37da8305.js.map",
+    "static/js/2.fc6a25cc.chunk.js": "/portfolio/static/js/2.fc6a25cc.chunk.js",
+    "static/js/2.fc6a25cc.chunk.js.map": "/portfolio/static/js/2.fc6a25cc.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.ceebd8d9.chunk.css.map": "/portfolio/static/css/main.ceebd8d9.chunk.css.map",
+    "static/js/2.fc6a25cc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.fc6a25cc.chunk.js.LICENSE.txt",
+    "static/media/books.71cb67e9.png": "/portfolio/static/media/books.71cb67e9.png",
+    "static/media/finance.a8dadc9e.png": "/portfolio/static/media/finance.a8dadc9e.png",
+    "static/media/harrypotter.451e9d55.png": "/portfolio/static/media/harrypotter.451e9d55.png",
+    "static/media/mainPhoto.b57126e0.jpeg": "/portfolio/static/media/mainPhoto.b57126e0.jpeg",
+    "static/media/starwars.ded4e3e5.png": "/portfolio/static/media/starwars.ded4e3e5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37da8305.js",
+    "static/js/2.fc6a25cc.chunk.js",
+    "static/css/main.ceebd8d9.chunk.css",
+    "static/js/main.e81cafa5.chunk.js"
+  ]
+}
