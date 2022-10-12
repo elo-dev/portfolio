@@ -1,18 +1,16 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import style from './App.module.scss'
+import { Route, Routes } from 'react-router'
+
 import { AboutMe } from './components/AboutMe/AboutMe'
 import { Projects } from './components/Projects/Projects'
 import { Sidebar } from './components/Sidebar/Sidebar'
-import './FontAwesomeIcon/index'
 
 const App = () => {
   return (
-    <div className={style.app__container}>
-      <div className={style.wrapper}>
+    <div className="container mx-auto p-10">
+      <div className="flex divide-x md:flex-col md:divide-x-0 md:space-y-10">
         <Sidebar />
         <Routes>
-          <Route path="/" element={<AboutMe />} />
+          <Route index element={<AboutMe />} />
           <Route path="/projects" element={<Projects />} />
         </Routes>
       </div>
